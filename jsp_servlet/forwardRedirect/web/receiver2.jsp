@@ -14,7 +14,7 @@
     phoneStr = request.getParameter("phoneStr");
 
     String[] strings = phoneStr.split("-");
-    phone = new Phone(strings[0], strings[0], strings[0]);
+    phone = new Phone(strings[0], strings[1], strings[2]);
   }
 
   String isForward = "";

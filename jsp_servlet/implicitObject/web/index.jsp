@@ -16,6 +16,7 @@
     Date sessionCreationTime = new Date();
     Date lastAccessedTime = new Date();
     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
 %>
 
 <header>
